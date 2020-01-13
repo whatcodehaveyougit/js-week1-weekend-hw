@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <script type="text/javascript" src="js/app.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Sports Stars</title>
+</head>
+
+<body>
+  <h1>Sports Stars</h1>
+  <form id="form">
+    <div id="form-wrapper">
+      <div class="form-item">
+        <label for="Name" class="primary">Name</label>
+        <input type="text" id="name">
+          <!-- <input type="text" id="name" required/> -->
+    </div>
+
+    <div class="form-item">
+      <label for="Sport" class="primary">Sport</label>
+      <input type="text" id="sport">
+    </div>
+
+    <div class="form-item">
+        <label for="ageRange" class="primary">Age Range</label>
+        <select id="ageRange">
+          <option value="" disabled selected></option>
+          <option value="20-30">16-30</option>
+          <option value="30-40">30-40</option>
+          <option value="40+">40+</option>
+        </select>
+    </div>
+
+    <div class="form-item">
+      <input type="submit" id="submit" value="Submit"/>
+    </div>
+    <div class="form-item">
+      <button type="button" id="delete" name="deleteAll">Delete All</button>
+    </div>
+
+    </div>   <!-- Form wrapper -->
+  </form>
+
+  <div id="sport-star-list"></div>
+  <ul>
+
+  </ul>
+
+  </div>
+</body>
